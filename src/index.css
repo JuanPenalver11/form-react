@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #639;
+ 
+}
+
+.form--container {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form--container form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+
+}
+
+.form--container input,
+textarea {
+  margin: 0 0 20px 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.check--container{
+  display: flex;
+  height: 70px;
+  width: 100%;
+font-size: 15px;
+font-family: 'Inter', sans-serif;
+}
+
+
+.radio--container legend{
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 20px;
+}
+
+.radio--container input{
+  margin-top: 5px;
+  height: 20px;
+}
+
+.radio--container label{
+  font-size: 15px;
+font-family: 'Inter', sans-serif;
+margin-left: 15px;
+
+}
+
+.drop--container{
+margin: 20px 0 0 0;
+  font-size: 15px;
+font-family: 'Inter', sans-serif;
+display: flex;
+flex-direction: column;
+height: 70px;
+width: 100%;
+
+}
+
+.drop--container label{
+  margin-bottom: 20px;
+}
+
+button{
+  width: 50%;
+  font-size: 15px;
+font-family: 'Inter', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: none;   
+    cursor: pointer; 
+}
